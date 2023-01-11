@@ -1,3 +1,4 @@
 .DS_Store
 DIST/
 .parcel-cache
+node_modules
