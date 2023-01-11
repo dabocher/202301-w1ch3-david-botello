@@ -1,3 +1,5 @@
+@import url(/node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,6 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  width: 412px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #eee;
-  height: 6rem;
+  height: 8rem;
 }
 
 h1 {
@@ -40,8 +41,19 @@ ul.navigation {
 }
 
 .link-to-form {
-  height: 3rem;
+  color: #eee;
+  height: 5rem;
   background-color: #49a749d7;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.products-buyed {
+  padding-right: 1rem;
 }
 
 .list {
