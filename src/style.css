@@ -32,6 +32,11 @@ nav {
   padding-right: 1rem;
   font-size: 0.8rem;
 }
+
+ul {
+  list-style: none;
+}
+
 ul.navigation {
   display: flex;
   justify-content: space-evenly;
@@ -59,9 +64,34 @@ ul.navigation {
 .list {
   flex: 1;
   background: rgb(207, 129, 4);
+  padding: 1rem;
 }
 
-a {
-  text-decoration: none;
-  font-weight: 700;
+.fa-square {
+  color: #eee;
+}
+
+.list__products {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.list__products li {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.list__products-item {
+  padding-left: 1rem;
+}
+
+.list__prices-item--bread,
+.list__prices-item--milk {
+  text-decoration: line-through;
+}
+
+.list__total {
+  padding-top: 1rem;
+  text-align: right;
 }
