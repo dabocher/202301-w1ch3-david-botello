@@ -85,7 +85,7 @@ a {
   text-align: left;
 }
 
-ul.list__products-container--ul > li:nth-child(2n + 1) {
+.list__products-container--ul > li:nth-child(2n + 1) {
   text-decoration: line-through;
 }
 
@@ -105,4 +105,30 @@ ul.list__products-container--ul > li:nth-child(2n + 1) {
   font-size: 1.2rem;
   padding-top: 1rem;
   text-align: right;
+}
+
+.form {
+  flex: 1;
+  background: rgb(207, 129, 4);
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.form__input--name-container {
+  width: 50%;
+}
+
+.form__input--price-container {
+  width: 50%;
+}
+button {
+  width: 20%;
+  background-color: #44a080;
+  border: none;
+  padding: 0.5rem;
 }
