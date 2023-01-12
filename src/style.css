@@ -65,6 +65,11 @@ a {
   padding-right: 1rem;
 }
 
+hr {
+  background: #333;
+  border: 1px solid #333;
+}
+
 .list {
   flex: 1;
   background: rgb(207, 129, 4);
